@@ -20,3 +20,10 @@ let myAdder = function(num1, num2){
 let result = myAdder(2,3)
 console.log(myAdder(2,3))
 console.log(result)
+
+
+let guestUser = function(user='unName', courseCount=0){
+    return `Hey ${user} your courseCount is ${courseCount}`
+}
+
+console.log(guestUser('sudhir',5))
